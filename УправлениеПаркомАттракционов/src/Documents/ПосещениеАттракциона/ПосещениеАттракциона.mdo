@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23399c4a-cad3-44d6-9398-7a9403cf6554">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2ef65b9-6750-4449-81a6-0d2c64f8dde1">
   <producedTypes>
-    <objectType typeId="835e0d1d-9685-4a3e-a75c-bd966373637d" valueTypeId="e1566ce9-93e6-49aa-8c1d-4ada4a5953a8"/>
-    <refType typeId="e39d1b30-78c5-4768-9342-1e4613628a98" valueTypeId="fe2af43d-820a-4444-9842-92000bc303a4"/>
-    <selectionType typeId="5f93a27e-5ca1-4662-bb29-2b8f605dedf9" valueTypeId="93ad9608-1c4a-4b1a-b23e-6caf279fd3f5"/>
-    <listType typeId="c292f3b9-411f-48d3-acaa-4f8dfaadf7e1" valueTypeId="a568ff6c-f3e1-4226-a796-0e9fe6f70aa3"/>
-    <managerType typeId="84925533-290d-4759-a216-50d313402bb4" valueTypeId="515d7295-ded1-4ec7-99dd-9120b34537f9"/>
+    <objectType typeId="45ccf361-6511-4520-b677-b5fa7879cd0d" valueTypeId="314e33b0-3cc9-4a3f-9fc4-73e4bc2369ea"/>
+    <refType typeId="17470d2f-a749-4004-ba50-34df3a036abb" valueTypeId="c2b17dd6-2d9e-430d-a809-f035c9520540"/>
+    <selectionType typeId="96705fe1-38c8-43c6-bc78-177f63b7d7e4" valueTypeId="7b83ab79-c50e-4c09-9c89-a689d676aae5"/>
+    <listType typeId="71012d84-cb5e-45b2-a03c-16ef104a9363" valueTypeId="f18e25ab-4cf4-4ebb-9189-86828fd302cd"/>
+    <managerType typeId="b7e3f773-00ea-4b18-a387-06f865b13b6b" valueTypeId="ae784779-2d3b-4af7-b6e2-886d668de65b"/>
   </producedTypes>
   <name>ПосещениеАттракциона</name>
   <synonym>
@@ -26,7 +26,7 @@
   <registerRecords>AccumulationRegister.АктивныеПосещения</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="5da48a8a-1a7a-45b2-95b8-3c1730e60867">
+  <attributes uuid="ba06a95d-26b5-47fb-815f-738772f9e346">
     <name>Аттракцион</name>
     <synonym>
       <key>ru</key>
@@ -42,7 +42,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="d4aea414-3fe8-44d7-93e4-8cd2b824bb4a">
+  <attributes uuid="118a25be-aea8-4688-8738-52241f92871d">
     <name>Основание</name>
     <synonym>
       <key>ru</key>

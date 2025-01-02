@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea6a78ab-f390-45ec-a41a-0f8b532ad0f5">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45b1c306-8dc5-45e0-867d-7701ca3851e9">
   <producedTypes>
-    <objectType typeId="ccd3c9a6-b366-4124-979e-791d6de9ca09" valueTypeId="e8831c38-37cc-406f-9d6c-08a8090efb5f"/>
-    <refType typeId="efdf8022-498b-4ad5-bb05-94fb48174f3b" valueTypeId="87927cd8-f7c8-4097-80bb-a8586ea3d0c6"/>
-    <selectionType typeId="593b461c-d0d4-428a-b6dd-05dd1008494d" valueTypeId="ace4d088-54a0-453d-8c8f-9091ac755942"/>
-    <listType typeId="93e7a9c6-52a2-4d11-871e-615917a89fc9" valueTypeId="5fccbc9d-ec8b-4f85-8cb3-a172078af0e7"/>
-    <managerType typeId="e4d5405c-9330-4282-a6a8-36113b1fa43c" valueTypeId="a8aa4d17-2ad4-4ab0-a73f-4580199767ae"/>
+    <objectType typeId="a33de43c-9e4d-4434-ae1a-9c4da6f6bb3b" valueTypeId="056dffcf-ea44-4b82-9755-29b3e03e2c2b"/>
+    <refType typeId="e7671a09-9466-4718-a129-d81c664814a4" valueTypeId="a8c0bc01-aa60-4988-9885-06d7d4e76a3b"/>
+    <selectionType typeId="b16763f7-e31f-4917-923d-48ad8228c2fa" valueTypeId="b3b88230-0d69-45ed-8445-5da009cd237c"/>
+    <listType typeId="915d1f01-4c44-46ff-bb2d-a4bce28c0349" valueTypeId="491a072c-da35-4a6d-bdcf-ab8a806acd40"/>
+    <managerType typeId="81cbc357-96db-4283-898e-d2211bef7671" valueTypeId="5271dc00-3d83-46e4-b42a-b3e9fd53e91f"/>
   </producedTypes>
   <name>УстановкаЦенНоменклатуры</name>
   <synonym>
@@ -27,7 +27,7 @@
   <registerRecords>InformationRegister.ЦеныНоменклатуры</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="d88e3246-326f-4371-b754-c94b95534b00">
+  <attributes uuid="c1399c87-678b-4c65-af60-1369633c2146">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -43,17 +43,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="4161491b-9466-4780-9af1-c5777514b773">
+  <tabularSections uuid="3ab6832d-6c5b-420f-813d-1dbcfdfbbe68">
     <producedTypes>
-      <objectType typeId="7bab9e8a-778f-47e0-b5bc-61118ef2058e" valueTypeId="655a62ed-a577-4225-9a1d-65227b8e4938"/>
-      <rowType typeId="8a1f9ef1-958a-423e-beeb-f221884d37d6" valueTypeId="f0b13781-74b2-43e0-87e0-9c6e41c6b10a"/>
+      <objectType typeId="a48d348f-56c9-4614-a49f-08b4a76dcef8" valueTypeId="434b97ff-6401-4337-870a-9004a259f33c"/>
+      <rowType typeId="6656750e-9477-474d-b7f2-52d0988b9e86" valueTypeId="4302079c-6c80-4aa6-908c-e98ff8d12e2d"/>
     </producedTypes>
     <name>ЦеныНоменклатуры</name>
     <synonym>
       <key>ru</key>
       <value>Цены номенклатуры</value>
     </synonym>
-    <attributes uuid="ddd30b7b-3332-4cc3-9d73-0f37b9d7b212">
+    <attributes uuid="5a531a30-f786-42a0-8ceb-b2a73b4c5c0b">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -67,7 +67,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="12f21206-cf7f-4f40-b471-491f22a18efc">
+    <attributes uuid="c9204512-9406-4d28-92ed-2eeb71c31db6">
       <name>Цена</name>
       <synonym>
         <key>ru</key>

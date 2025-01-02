@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fcfb3ee-cb66-42f0-b59a-a71da9d53ab9">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40686d41-0d5a-4327-ab6f-0594d521cfed">
   <producedTypes>
-    <objectType typeId="8334d487-312f-4270-aec3-088d8176ce8b" valueTypeId="b6060435-e3c3-4e02-8ddb-fa941e9fd11f"/>
-    <refType typeId="66ca7a3c-8f7b-48e3-9f4d-a07855ec97c3" valueTypeId="fe18dff4-b134-4d1e-b1fd-6f7eee714924"/>
-    <selectionType typeId="09df1cfb-6ec8-4120-8473-73a61f7c0e3a" valueTypeId="c00ab5fa-1bb5-4034-af0a-a39ae9ba1fe1"/>
-    <listType typeId="e5fe52c3-1d06-4704-bdbb-be36c54dcd1e" valueTypeId="58add80f-a246-40b2-bbbf-55595b03b62e"/>
-    <managerType typeId="2f50a9ed-62d3-4e5a-bbc0-17dcd00d5562" valueTypeId="cfcf2280-68da-43ba-bdd2-5b9a10052a49"/>
+    <objectType typeId="6d8c514f-db3b-4745-a8fd-a9dbdb029712" valueTypeId="d6de4d28-0f87-4507-aa89-720a1c8064ec"/>
+    <refType typeId="04577af8-7209-4128-8fa7-edd7caf66eaf" valueTypeId="fdaf2ac6-d1bc-4afa-9f59-4c8d42185933"/>
+    <selectionType typeId="d7addba2-cfd3-4f06-a917-fdbe53839787" valueTypeId="38a6a4f8-6379-4cf6-9d5d-ea9a2df3a306"/>
+    <listType typeId="d598a4ca-0fe7-4bb0-b209-4e1275804a1c" valueTypeId="eb17d76c-0927-43f1-9a40-6372d5dc0bcb"/>
+    <managerType typeId="1b21c801-d348-4051-85a4-0cecc6c00fd5" valueTypeId="cd235d15-b1c9-48f9-ba7a-3feb15e1393f"/>
   </producedTypes>
   <name>ШкалаБонуснойПрограммы</name>
   <synonym>
@@ -27,10 +27,10 @@
   <registerRecords>InformationRegister.АктуальнаяШкалаБонуснойПрограммы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <tabularSections uuid="58c59df5-1801-4e5b-9234-109101d0f137">
+  <tabularSections uuid="87b7847f-c967-4ca7-83d5-9eb6eb8c7cf3">
     <producedTypes>
-      <objectType typeId="d9a0004c-81f5-471f-aebe-fa394704bac0" valueTypeId="37f7a250-ea9d-47d1-8b40-9a7c5a477ab2"/>
-      <rowType typeId="3ef195b6-7b88-4345-b920-3883239338a8" valueTypeId="88d613fa-be16-4681-9719-148c474d9ce7"/>
+      <objectType typeId="b4ed48d2-98ee-4ba9-90b6-8a0b30266d91" valueTypeId="e29ebafb-3b7e-4bd1-aa27-6b8d80cff4aa"/>
+      <rowType typeId="655093b0-596a-4a51-9d80-51570af54f8c" valueTypeId="a299c7cf-56a5-4ac4-a93e-aada45680393"/>
     </producedTypes>
     <name>Диапазоны</name>
     <synonym>
@@ -38,7 +38,7 @@
       <value>Диапазоны</value>
     </synonym>
     <fillChecking>ShowError</fillChecking>
-    <attributes uuid="3b8c167d-4a1b-4c7f-a9d5-18ff89268b23">
+    <attributes uuid="e75bbaea-ac39-4b28-a099-486478278907">
       <name>НижняяГраница</name>
       <synonym>
         <key>ru</key>
@@ -48,7 +48,6 @@
         <types>Number</types>
         <numberQualifiers>
           <precision>15</precision>
-          <scale>2</scale>
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
@@ -57,7 +56,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="4b4e401c-026c-4d50-a5f5-2e6ad5540444">
+    <attributes uuid="7c7b57f7-4104-42a5-b0dd-fb44194ea3a1">
       <name>ВерхняяГраница</name>
       <synonym>
         <key>ru</key>
@@ -76,7 +75,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="0372c18d-0b31-46ab-8f6d-a22f4e9f0d0b">
+    <attributes uuid="996dccfa-2566-44ad-9a42-cf195d77890a">
       <name>ПроцентНакопления</name>
       <synonym>
         <key>ru</key>

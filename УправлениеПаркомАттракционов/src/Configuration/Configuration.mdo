@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2567f0e-93b4-4791-9ff9-ca93e0b8bb16">
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e63b2fc-0010-4134-b53a-4a40e25f4a8f">
   <name>УправлениеПаркомАттракционов</name>
   <synonym>
     <key>ru</key>
@@ -12,11 +12,12 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="4c05ed1e-38be-4b62-a80b-01bdbbc30127"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="79ac0905-93c6-4363-b78c-e0d4d3166490"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="16d568de-f286-47ed-aa85-1d77fadb23aa"/>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Фирма 1С</vendor>
-  <version>1.0.0.1</version>
+  <version>1.0.0.2</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -36,7 +37,7 @@
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.24</compatibilityMode>
-  <languages uuid="4ca64eba-2f0c-4915-8d06-2fc7db39adbe">
+  <languages uuid="733239ed-f68b-44a9-b468-923b834a5953">
     <name>Русский</name>
     <synonym>
       <key>ru</key>
@@ -60,6 +61,8 @@
   <enums>Enum.ВидНоменклатуры</enums>
   <reports>Report.ПродажиПоАттракционам</reports>
   <reports>Report.СтатистикаПосещений</reports>
+  <dataProcessors>DataProcessor.ПереходНаНовыеВерсии</dataProcessors>
+  <dataProcessors>DataProcessor.РабочееМестоКассира</dataProcessors>
   <informationRegisters>InformationRegister.АктуальнаяШкалаБонуснойПрограммы</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.АктивныеПосещения</accumulationRegisters>
